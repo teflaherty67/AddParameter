@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command AddParameter</Text>
+    <Description>Some description for AddParameter</Description>
+    <Assembly>AddParameter.dll</Assembly>
+    <FullClassName>AddParameter.Command</FullClassName>
+    <ClientId>80edef54-a05e-4b42-ae06-8df24d569665</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application AddParameter</Name>
+    <Assembly>AddParameter.dll</Assembly>
+    <FullClassName>AddParameter.App</FullClassName>
+    <ClientId>0d6c643c-fe7b-4c6f-a549-7f005e369b73</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
